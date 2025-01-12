@@ -57,4 +57,8 @@ The goal of this lab is to use an unfamiliar API to create an application.
 
 ## Adding the Circle Icon of the People in my Group [15 mins]
 
-Total Time: 115 mins
+- I had to re-adjust the code to make it easier to add multiple circle icons to the map with different colors and sizes.
+
+## Conclusion
+
+- Total Time: 115 mins
