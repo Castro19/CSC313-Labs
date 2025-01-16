@@ -33,7 +33,7 @@ The goal of this lab is to use an unfamiliar API to create an application.
 3. How to increase the size of the circle icon?
 4. How to change the color of the circle icon?
 
-- [ ] Locate docs from the openlayers website [here](https://openlayers.org/doc/)
+- Locate docs from the openlayers website [here](https://openlayers.org/doc/)
 
 ## Centering the Map on Cal Poly [20 mins]
 
@@ -44,12 +44,12 @@ The goal of this lab is to use an unfamiliar API to create an application.
 
 ## Adding the Circle Icon [40 mins total]
 
-### Stuck on how to create a circle icon [20 mins]
+### Stuck on how to create a circle icon
 
 - Stuck on how to create a circle icon, so I went to take a break [20 mins]
 - The next day, I pick up where I left off and try to figure out how to create a circle icon
 
-### Found a Solution [20 mins]
+### Found a Solution
 
 - Found this helpful example [here](https://openlayers.org/en/latest/examples/icon-scale.html)
 - I copied the code and I was able to create a circle icon but now the map was different.

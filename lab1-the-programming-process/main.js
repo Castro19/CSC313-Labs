@@ -28,13 +28,13 @@ const points = [
     }),
   },
   {
-    name: "San Mateo",
+    name: "San Francisco",
     feature: new Feature({
-      geometry: new Point([-122.322823, 37.55111]),
+      geometry: new Point([-122.415306, 37.782909]),
     }),
     style: new Style({
       image: new Circle({
-        radius: 16,
+        radius: 16 * 2,
         fill: new Fill({
           color: "red",
         }),
@@ -45,7 +45,67 @@ const points = [
       }),
     }),
   },
+  {
+    name: "Gardnerville, Nevada",
+    feature: new Feature({
+      geometry: new Point([-119.731994, 38.937779]),
+    }),
+    style: new Style({
+      image: new Circle({
+        radius: 16,
+        fill: new Fill({
+          color: "blue",
+        }),
+        stroke: new Stroke({
+          color: "white",
+          width: 4,
+        }),
+      }),
+    }),
+  },
+  {
+    name: "Los Angeles",
+    feature: new Feature({
+      geometry: new Point([-118.252094, 34.047477]),
+    }),
+    style: new Style({
+      image: new Circle({
+        radius: 16,
+        fill: new Fill({
+          color: "green",
+        }),
+        stroke: new Stroke({
+          color: "white",
+          width: 4,
+        }),
+      }),
+    }),
+  },
+  {
+    name: "Folsom, CA",
+    feature: new Feature({
+      geometry: new Point([-118.252094, 34.047477]),
+    }),
+    style: new Style({
+      image: new Circle({
+        radius: 16,
+        fill: new Fill({
+          color: "purple",
+        }),
+        stroke: new Stroke({
+          color: "white",
+          width: 4,
+        }),
+      }),
+    }),
+  },
 ];
+
+// Fresno
+// San Francisco x2
+// Gardnerville, NevadaGardnerville, Nevada
+// Los Angeles
+// Folsom, CA
 
 for (const point of points) {
   point.feature.setStyle([point.style]);
